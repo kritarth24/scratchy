@@ -1,0 +1,345 @@
+body
+{
+  margin:0;
+  padding:0;
+}
+div.background
+{
+  width: 98.5vw;
+  height:100vh;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  position: relative;
+}
+
+div.heading
+{
+  width: 100%;
+  height: 466px;
+  vertical-align: middle;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50% , -50%)
+}
+
+div.heading h1
+{
+  text-align: center;
+  width: 100%;
+  color:white;
+  margin: 20px 0px 10px;
+  font-size: 60px;
+  font-family: "brandon_grotesqueblack", sans-serif;
+  font-weight: 900;
+  text-align:center;
+  letter-spacing: -7px;
+}
+span
+{
+  opacity: 0.5;
+  letter-spacing: -7px;
+}
+div.link a
+ {
+   display: inline-block;
+   border:4px solid yellow;
+   color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "dinregular", Helvetica, Arial, sans-serif;
+  }
+a.abc
+{
+  width: 300px;
+  height: 60px;
+  padding: 15px 6px;
+  box-sizing: border-box;
+  margin-right: 0.8vw;
+}
+a.xyz
+{
+  width: 300px;
+   height: 60px;
+   padding: 15px 6px;
+   box-sizing: border-box;
+}
+div.link a:hover
+{
+  background-color: orange;
+}
+
+.bottom-photo
+{
+  height: 85px;
+  width: 85px;
+  margin-right: 5vw;
+  margin-left: 10vw;
+  margin-top: 5vh;
+  display: inline-block;
+  background-image: url("circle.png");
+  background-repeat: no-repeat;
+}
+p.huh
+{
+  margin-right: 15px;
+  padding-top: 2vh;
+}
+p.suh
+{
+  text-align: center;
+  margin-top: 6vh;
+}
+.bottom-photo1
+{  display: inline-block;
+    background-image: url("circle.png");
+    background-repeat: no-repeat;
+    margin-right: 5vw;
+  height: 85px;
+  width: 85px;
+}
+.bottom-photo2
+{
+    display: inline-block;
+    background-image: url("circle.png");
+    background-repeat: no-repeat;
+    margin-right: 15vw;
+  height: 85px;
+  width: 85px;
+}
+.bottom-photo3
+{
+  display: inline-block;
+  background-image: url("circle.png");
+  background-repeat: no-repeat;
+  height: 85px;
+  width: 85px;
+  position: relative;
+  right: 10vw;
+}
+hr
+{
+  position: relative;
+  top:13vh;
+  opacity: 0.5;
+}
+.lost img
+{
+  margin-top: 15vh;
+  opacity: 0.5;
+}
+
+.part2
+{
+  width:76.5%;
+  font-size: 42px;
+  color:#9b9b9b;
+  letter-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight:700;
+}
+div.grid-container
+{
+  width: 76.5%;
+  display:grid;
+  grid-template-columns:248px 538px 248px;
+  margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.item1
+{
+  width:100%;
+  height:100%;
+}
+.item2
+{
+   width:100%;
+   height:100%;
+   grid-column: 2;
+   grid-row: 1/ span 2;
+}
+.item3
+{
+ width:100%;
+ height:100%;
+}
+.item4
+{
+  width:100%;
+  height:100%;
+}
+.item5
+{
+width:100%;
+height:100%;
+}
+.gallery
+{
+  position:relative;
+}
+.capts
+{
+  font-weight:bold;
+  line-height: 3vh;
+  width: 100%;
+  border:1px solid;
+  font-family: "dinregular",Helvetica,Arial,sans-serif;
+  background-color: #4A4A4A;
+  padding: 17px;
+  position:absolute;
+  bottom:0;
+  box-sizing: border-box;
+}
+div.capts .desp
+{
+  color:yellow;
+}
+div.capts .desp1
+{
+  color:white;
+}
+.overlay
+{
+  width:100%;
+  height:66.5%;
+  background-color: black;
+  position: absolute;
+  top:0;
+  opacity:0;
+}
+.overlay4
+{
+  width:100%;
+  height:70%;
+  background-color: black;
+  position: absolute;
+  top:0;
+  opacity: 0;
+}
+.overlay5
+{
+  width: 100%;
+  height: 70%;
+  background-color: black;
+  position: absolute;
+  top:0;
+  opacity:0;
+}
+.gallery:hover .overlay
+{
+  opacity: 0.5;
+}
+.gallery:hover .capts
+{
+  background-color:#ffff40;
+}
+.gallery:hover .desp
+{
+  color:black;
+}
+.gallery:hover .desp1
+{
+  color:black;
+}
+.item2:hover
+{
+  opacity: 0.5;
+}
+.last-container
+{
+  width: 517px;
+  height: 300px;
+  background-image: url("events_Web_photo.jpg");
+  background-repeat: no-repeat;
+}
+.parts
+{
+  width:517px;
+  height:300px;
+  text-align: center;
+}
+div.part p
+{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bold;
+}
+.but
+{
+  font-size: 12px;
+font-family: 'Cormorant Garamond', serif;
+}
+div.last-container2
+{
+  width: 517px;
+  height: 300px;
+  background-image: url("Weddings_Web_photo.jpg");
+}
+div.grid-container1
+{
+  width: 76.5%;
+  display: grid;
+  grid-template-columns:auto auto;
+  margin-left:auto;
+  margin-right: auto;
+}
+.grid-itm
+{
+  width: 517px;
+   border:1px solid black;
+    position: relative;
+}
+.aah
+{
+  width:517px;
+  height: 91.5vh;
+  background-color: black;
+  position: absolute;
+  top:0;
+  opacity:0.5;
+}
+.grid-itm:hover .aah
+{
+  opacity: 0;
+}
+.abouts
+{
+  background-color: #354247;
+  text-align: center;
+  padding: 30px;
+}
+.abouts img
+{
+  width: 196px;
+  height: 31px;
+}
+ul
+{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.abouts li
+{
+  display:inline-block;
+  text-align: center;
+}
+li a
+{
+  color:white;
+  text-decoration: none;
+  padding: 2px;
+  font-family: "dinregular",Helvetica,Arial,sans-serif;
+  font-size: 12px;
+}
+.abouts p
+{
+  font-family: "dinregular",Helvetica,Arial,sans-serif;
+  color:white;
+  font-size: 10px;
+  opacity: 0.5;
+}
